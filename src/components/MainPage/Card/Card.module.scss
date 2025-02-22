@@ -1,0 +1,67 @@
+.card {
+  flex: 0 0 50%;
+  padding: 10px;
+}
+
+.body {
+  background-color: #fff;
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  color: white;
+  max-width: 100%;
+  word-break: break-all;
+  font-size: 10px;
+  text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0px 3px 0 rgb(0, 0, 0), 0px -3px 0 rgb(0, 0, 0), 3px 0px 0 rgb(0, 0, 0), -3px 0px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0);
+  -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0px 3px 0 rgb(0, 0, 0), 0px -3px 0 rgb(0, 0, 0), 3px 0px 0 rgb(0, 0, 0), -3px 0px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0);
+  -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0px 3px 0 rgb(0, 0, 0), 0px -3px 0 rgb(0, 0, 0), 3px 0px 0 rgb(0, 0, 0), -3px 0px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0);
+}
+
+.adminka {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+}
+
+//
+//.active {
+//  background-color: green;
+//}
+//
+//.body {
+//  height: 90%;
+//  width: 90%;
+//
+//  position: relative;
+//}
+//
+//.name {
+//  position: absolute;
+//  bottom: 10px;
+//  left: 50%;
+//  transform: translate(-50%,);
+//  text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0px 3px 0 rgb(0, 0, 0), 0px -3px 0 rgb(0, 0, 0), 3px 0px 0 rgb(0, 0, 0), -3px 0px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0);
+//  -webkit-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0px 3px 0 rgb(0, 0, 0), 0px -3px 0 rgb(0, 0, 0), 3px 0px 0 rgb(0, 0, 0), -3px 0px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0);
+//  -moz-text-shadow: 0px 1px 0 rgb(0, 0, 0), 0px -1px 0 rgb(0, 0, 0), 1px 0px 0 rgb(0, 0, 0), -1px 0px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), -1px -1px 0 rgb(0, 0, 0), 0px 2px 0 rgb(0, 0, 0), 0px -2px 0 rgb(0, 0, 0), 2px 0px 0 rgb(0, 0, 0), -2px 0px 0 rgb(0, 0, 0), 2px 2px 0 rgb(0, 0, 0), 2px -2px 0 rgb(0, 0, 0), -2px 2px 0 rgb(0, 0, 0), -2px -2px 0 rgb(0, 0, 0), 0px 3px 0 rgb(0, 0, 0), 0px -3px 0 rgb(0, 0, 0), 3px 0px 0 rgb(0, 0, 0), -3px 0px 0 rgb(0, 0, 0), 3px 3px 0 rgb(0, 0, 0), 3px -3px 0 rgb(0, 0, 0), -3px 3px 0 rgb(0, 0, 0), -3px -3px 0 rgb(0, 0, 0);
+//  font-size: 47px;
+//  color: rgb(255, 255, 255);
+//  font-family: Verdana, Geneva, sans-serif;
+//}
+//
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.bodyBorder {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
