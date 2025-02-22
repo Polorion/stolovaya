@@ -7,7 +7,7 @@ export const addUser = createAsyncThunk(
         console.log(params)
 
         const {data} = await axios.post(
-            `http://localhost:3000/add-user`, {
+            `http://89.179.119.63/add-user`, {
                 ...params
             }
         );
@@ -20,7 +20,7 @@ export const getUser = createAsyncThunk(
         console.log(params)
 
         const {data} = await axios.post(
-            `http://localhost:3000/check-user`, {
+            `http://89.179.119.63/check-user`, {
                 ...params
             }
         );
